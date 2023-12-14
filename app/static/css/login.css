@@ -5,16 +5,33 @@ body {
     background-color: #121212; /* Dark background color */
     color: #ffffff; /* Light text color */
     font-family: 'Poppins', sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    overflow:hidden;
+    
 }
 
 .container {
-    max-width: 400px;
-    margin: 50px auto;
+    width:350px;
+    min-height: 500px;
     padding: 20px;
     background-color: #1f1f1f; /* Darker container background color */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    position: relative; /* Added relative positioning for button centering */
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    
+    
+     /* Added relative positioning for button centering */
+}
+
+form {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
 }
 
 h3 {
@@ -49,7 +66,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     width: 100%; /* Make the button take 100% width */
-    position: relative; /* Change to relative positioning */
+     /* Change to relative positioning */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
     font-family: 'Poppins', sans-serif;
 }
