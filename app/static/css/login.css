@@ -60,8 +60,9 @@ label, button {
     margin-bottom:25px;
 }
 
-h3 {
-    color: #7a5eb5; /* Purple heading color */
+h1 {
+    color: #7a5eb5;
+    font-size:25px; /* Purple heading color */
 }
 
 
@@ -76,7 +77,7 @@ input {
     width: 100%;
     padding: 10px;
     border: 1px solid #7a5eb5; /* Purple border */
-    border-radius: 4px;
+    border-radius: 6px;
     background-color: #2b2b2b; /* Dark input background color */
     color: #ffffff; /* Light input text color */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
@@ -87,7 +88,7 @@ button {
     color: #ffffff; /* Light button text color */
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     width: 100%; /* Make the button take 100% width */
      /* Change to relative positioning */
