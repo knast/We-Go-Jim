@@ -107,7 +107,8 @@ button {
 }
 
 button:hover {
-    background-color: #593d8b; /* Darker purple on hover */
+    background-color: #593d8b;
+    transition:0.3s;/* Darker purple on hover */
 }
 
 .error-section {
